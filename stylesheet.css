@@ -1,0 +1,37 @@
+html {
+    background-color: #aaaaaa;
+}
+
+body {
+    max-width: 1000px;
+    font-family: "Roboto";
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 1ex;
+    margin: 1em auto;
+    background-color: white;
+    padding-top: 0px;
+    min-height: 500px;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h2 {
+    border-bottom: black solid 1px;
+}
+
+ul {
+    text-align: start;
+}
+
+.right_float_collumn {
+    width: 40%;
+    float: right;
+}
+
+.left_float_collumn {
+    width: 60%;
+    float: right;
+}
