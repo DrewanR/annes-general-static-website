@@ -1,19 +1,58 @@
-.image {
-    float: right;
-}
-
-#header {
-    max-width: 1200px;
-    margin: auto;
-}
-
-#main-body {
-    max-width: 1000px;
-    margin: auto;
+html {
+    background-color: #aaaaaa;
 }
 
 body {
+    max-width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
-    color: beige;
-    background-color: black;
+    border: black solid 1px;
+    border-radius: 1ex;
+    margin: 1em auto;
+    background-color: white;
+    padding-top: 0px;
+    min-height: 500px;
+}
+
+img {
+    border-radius: 1ex;
+    border: black solid 1px;
+}
+
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 5px;
+    border-bottom: black solid 1px;
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+ul {
+    text-align: start;
+}
+
+p {
+    font-size: large;
+    padding: 0px 20px;
+}
+
+.right_float_column {
+    width: 40%;
+    float: right;
+}
+
+.left_float_column {
+    width: 60%;
+    float: right;
+}
+
+.center {
+    text-align: center;
 }
